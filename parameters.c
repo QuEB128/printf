@@ -136,7 +136,7 @@ int print_hexa(va_list types, char map_to[], char buffer[],
 
 	UNUSED(width);
 
-	vlaue = convert_size_unsgnd(value, size);
+	value = convert_size_unsgnd(value, size);
 
 	if (value == 0)
 		buffer[a--] = '0';
